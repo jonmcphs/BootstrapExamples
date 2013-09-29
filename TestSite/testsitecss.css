@@ -42,7 +42,7 @@
 	background-color: #E9A65F;
 }
 
-.navbar-custom .navbar-nav > .dropdown > a:hover .caret {
+.navbar-custom .navbar-nav .dropdown a:hover .caret {
 	border-top-color: #FFFFFF;
 	border-bottom-color: #FFFFFF;
 }
