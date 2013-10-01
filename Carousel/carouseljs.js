@@ -1,6 +1,14 @@
-var home = $('#firststop').offset().top - 50;
-var about = $('#secondstop').offset().top - 50;
-var contact = $('#thirdstop').offset().top - 50;
+if (document.documentElement.clientWidth >= 767){
+var adjustment = 50;
+}else{
+adjustment = 200;
+};
+
+var home = $('#firststop').offset().top - adjustment;
+var about = $('#secondstop').offset().top - adjustment;
+var contact = $('#thirdstop').offset().top - adjustment;
+
+console.log(home);
 
 $('#home').click(function(){
             $('html,body').animate({scrollTop:home},'slow');
