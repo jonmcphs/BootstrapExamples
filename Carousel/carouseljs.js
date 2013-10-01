@@ -1,3 +1,5 @@
+//scroll doesn't work in portrait view
+
 if (document.documentElement.clientWidth >= 767){
 var adjustment = 50;
 }else{
