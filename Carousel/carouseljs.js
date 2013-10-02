@@ -13,7 +13,9 @@ var contact = $('#thirdstop').offset().top - adjustment;
 console.log(home);
 
 $('#home').click(function(){
-            $('html,body').animate({scrollTop:home},'slow');
+            $('html,body').animate({
+            	scrollTop:home,
+            },'slow');
             return false;
         });
 
