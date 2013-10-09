@@ -14,8 +14,10 @@ console.log(home);
 
 $('#home').click(function(){
             $('html,body').animate({
-            	scrollTop:home,
-            },'slow');
+            	scrollTop:home}, {duration:'slow', queue:false});
+            //scolling on the x axis
+           // $('html,body').animate({
+           //     scrollLeft:100}, {duration:'slow', queue:false});
             return false;
         });
 
